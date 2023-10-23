@@ -20,3 +20,11 @@ function ejercicio3() {
 }
 var punto3 = document.getElementById("btnPunto3");
 punto3.addEventListener("click", ejercicio3);
+
+function ejercicio4() {
+  var mensajePunto4 = document.getElementById("mensajePunto4");
+  var nombreUsuario = prompt("Ingrese El Nombre de Usuario");
+  mensajePunto4.textContent = `Hola ${nombreUsuario}`;
+}
+var punto4 = document.getElementById("btnPunto4");
+punto4.addEventListener("click", ejercicio4);
