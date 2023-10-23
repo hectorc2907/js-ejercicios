@@ -28,3 +28,13 @@ function ejercicio4() {
 }
 var punto4 = document.getElementById("btnPunto4");
 punto4.addEventListener("click", ejercicio4);
+
+function ejercicio5() {
+  var mensajePunto5 = document.getElementById("mensajePunto5");
+  var num1 = parseInt(prompt("Ingrese el Valor del Numero 1"));
+  var num2 = parseInt(prompt("Ingrese el valor del Numero 2"));
+  var suma = num1 + num2;
+  mensajePunto5.textContent = `${num1} + ${num2} = ${suma}`;
+}
+var punto5 = document.getElementById("btnPunto5");
+punto5.addEventListener("click", ejercicio5);
