@@ -31,10 +31,25 @@ punto4.addEventListener("click", ejercicio4);
 
 function ejercicio5() {
   var mensajePunto5 = document.getElementById("mensajePunto5");
-  var num1 = parseInt(prompt("Ingrese el Valor del Numero 1"));
-  var num2 = parseInt(prompt("Ingrese el valor del Numero 2"));
+  var num1 = parseInt(prompt("Ingrese el Valor del Numero 1:"));
+  var num2 = parseInt(prompt("Ingrese el valor del Numero 2:"));
   var suma = num1 + num2;
   mensajePunto5.textContent = `${num1} + ${num2} = ${suma}`;
 }
 var punto5 = document.getElementById("btnPunto5");
 punto5.addEventListener("click", ejercicio5);
+
+function ejercicio6() {
+  var mensajePunto6 = document.getElementById("mensajePunto6");
+  var num1 = parseInt(prompt("Ingrese el Valor Del Numero 1:"));
+  var num2 = parseInt(prompt("Ingrese el Valor Del Numero 2:"));
+  if (num1 > num2) {
+    mensajePunto6.textContent = `El primer numero(${num1}) es mayor que el segundo(${num2})`;
+  } else if (num2 > num1) {
+    mensajePunto6.textContent = `El segundo numero(${num2}) es mayor que el primero(${num1})`;
+  }else{
+    mensajePunto6.textContent = `Ambos numeros comparten el mismo valor(${num1})`;
+  }
+}
+var punto6 = document.getElementById("btnPunto6");
+punto6.addEventListener("click", ejercicio6);
