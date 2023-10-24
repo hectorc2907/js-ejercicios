@@ -65,9 +65,21 @@ function ejercicio7() {
     mensajePunto7.textContent = `El mayor de los 3 numeros ingresados es el segundo(${num2})`;
   } else if ((num3 > num1 && num3 > num2) || (num3 > num1 && num1 == num2)) {
     mensajePunto7.textContent = `El mayor de los 3 numeros ingresados es el tercero(${num3})`;
-  }else if(num1 == num2 && num2 == num3 && num1 == num3){
+  } else if (num1 == num2 && num2 == num3 && num1 == num3) {
     mensajePunto7.textContent = `Los 3 valores son iguales`;
   }
 }
 var punto7 = document.getElementById("btnPunto7");
 punto7.addEventListener("click", ejercicio7);
+
+function ejercicio8() {
+  var mensajePunto8 = document.getElementById("mensajePunto8");
+  var num = parseInt(prompt("Ingrese el valor del Numero:"));
+  if (num % 2 === 0) {
+    mensajePunto8.textContent = `El numero ${num} es divisible en 2`;
+  } else {
+    mensajePunto8.textContent = `El numero ${num} no es divisible en 2`;
+  }
+}
+var punto8 = document.getElementById("btnPunto8");
+punto8.addEventListener("click", ejercicio8);
