@@ -113,3 +113,30 @@ function ejercicio10() {
 }
 let punto10 = document.getElementById("btnPunto10");
 punto10.addEventListener("click", ejercicio10);
+
+function ejercicio11() {
+  let mensajePunto11 = document.getElementById("mensajePunto11");
+  let num = parseInt(prompt("Ingrese el numero:"));
+  let divisible = [];
+  if (num % 2 === 0) {
+    divisible.push(2);
+  }
+  if (num % 3 === 0) {
+    divisible.push(3);
+  }
+  if (num % 5 === 0) {
+    divisible.push(5);
+  }
+  if (num % 7 === 0) {
+    divisible.push(7);
+  }
+  if (divisible.length > 0) {
+    mensajePunto11.textContent = `El numero ${num} es divisible por: ${divisible.join(
+      ", "
+    )}.`;
+  } else {
+    mensajePunto11.textContent = `El numero ${num} no es divisible por 2, 3, 5 ni 7.`;
+  }
+}
+let punto11 = document.getElementById("btnPunto11");
+punto11.addEventListener("click", ejercicio11);
