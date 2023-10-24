@@ -87,7 +87,6 @@ punto8.addEventListener("click", ejercicio8);
 function ejercicio9() {
   let mensajePunto9 = document.getElementById("mensajePunto9");
   let frase = prompt("Ingrese la frase");
-
   function vocales(letra) {
     return "aeiouAEIOU".includes(letra);
   }
@@ -102,3 +101,15 @@ function ejercicio9() {
 }
 let punto9 = document.getElementById("btnPunto9");
 punto9.addEventListener("click", ejercicio9);
+
+function ejercicio10() {
+  let mensajePunto10 = document.getElementById("mensajePunto10");
+  let num = parseInt(prompt("Ingrese el numero:"));
+  if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0) {
+    mensajePunto10.textContent = `El numero ${num} es divisible por lo menos en uno de los numeros solicitados`;
+  } else {
+    mensajePunto10.textContent = `Èl numero ${num} no es divisible por ninguno de los numeros solicitados`;
+  }
+}
+let punto10 = document.getElementById("btnPunto10");
+punto10.addEventListener("click", ejercicio10);
