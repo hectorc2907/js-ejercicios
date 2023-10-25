@@ -2,11 +2,11 @@
 
 ## Tabla de Contenidos
 
--[Introducción](#introducción)
--[Características](#características)
--[Tecnologías](#tecnologías)
--[Instalación](#instalación)
--[Contactos](#contactos)
+- [Introducción](#introducción)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Instalación](#instalación)
+- [Contactos](#contactos)
 
 ## Introducción
 
@@ -23,7 +23,7 @@ Practica Basica de ejercicios de JavaScript, en esta practica se ven cosas basic
 [![HTML](https://img.shields.io/badge/-HTML-orange?style=flat&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)  
 [![CSS](https://img.shields.io/badge/-CSS-blue?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)  
 [![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)  
-[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Instalación
 
